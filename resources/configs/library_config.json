@@ -1,0 +1,5 @@
+{
+  "app_name" : "library",
+  "ip_path": "resources/inputs/library_data.json",
+  "op_path" : "resources/outputs/library_info/"
+}

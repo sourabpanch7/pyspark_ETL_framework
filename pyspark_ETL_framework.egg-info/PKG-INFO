@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pyspark-ETL-framework
+Version: 0.1.0
+Summary: Sample pyspark based ETL framework
+Author: sourabpanch7
+Requires-Python: ==3.9

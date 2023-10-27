@@ -1,0 +1,71 @@
+[
+  {
+    "series": "Harry Potter",
+    "author": "J.K.Rowling",
+    "books": [
+      {
+        "name": "Philosopher's Stone",
+        "year_of_release": 1996
+      },      {
+        "name": "Chamber of Secrets",
+        "year_of_release": 1998
+      },      {
+        "name": "Prisoner of Azkaban",
+        "year_of_release": 2000
+      },      {
+        "name": "Goblet of Fire",
+        "year_of_release": 2003
+      },      {
+        "name": "Order of Phoenix",
+        "year_of_release": 2005
+      },      {
+        "name": "Half Blood Prince",
+        "year_of_release": 2007
+      },      {
+        "name": "Deathly Hallows",
+        "year_of_release": 2008
+      }
+    ]
+  },
+  {
+    "series": "The Lord of the Rings",
+    "author": "J.R.R.Tolkein",
+    "books": [
+      {
+        "name": "The Hobbit",
+        "year_of_release": 1992
+      },      {
+        "name": "The Fellowship of the Ring",
+        "year_of_release": 1996
+      },      {
+        "name": "The Two Towers",
+        "year_of_release": 2000
+      },      {
+        "name": "The Lord of the Rings",
+        "year_of_release": 2002
+      }
+    ]
+  },
+  {
+    "series": " A Song of Ice and Fire",
+    "author": "J.K.Rowling",
+    "books": [
+      {
+        "name": "Game of Thrones",
+        "year_of_release": 2005
+      },      {
+        "name": "Clash of Kings",
+        "year_of_release": 2008
+      },      {
+        "name": "Storm of Swords",
+        "year_of_release": 2010
+      },      {
+        "name": "Feast for Crows",
+        "year_of_release": 2011
+      },      {
+        "name": "Dance with Dragons",
+        "year_of_release": 2015
+      }
+    ]
+  }
+]
