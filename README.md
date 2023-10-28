@@ -35,3 +35,15 @@ $2 => Config File Path
 0. Ensure that the DAO object for reading and writing from your desired source is present in _**src.dataAccessObjects**_
 1. Create corresponding transformer class under **_src.transformers_**
 2. Create corresponding driver class under **_src.drivers_**
+
+## Steps to run tests
+
+#### Initial setup
+
+1. Install the required libraries using the below command.
+
+   **_pip install -r test_requirements.txt_**
+
+2. Run the tests using the below command.
+
+   **_sh test_module_spark_submit.sh_** 
