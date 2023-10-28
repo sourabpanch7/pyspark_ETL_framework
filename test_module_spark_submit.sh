@@ -5,6 +5,4 @@ spark-submit \
 --conf "spark.pyspark.driver.python=<ENTER PYTHON PATH HERE>" \
 --conf "spark.pyspark.executor.python=<ENTER PYTHON PATH HERE>" \
 --py-files dist/pyspark_ETL_framework-0.1.0-py3.9.egg \
-main.py \
---config_file $2 \
---job_name $1
+test/test_library.py
