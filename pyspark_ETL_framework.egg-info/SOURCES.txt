@@ -15,3 +15,4 @@ src/transformers/__init__.py
 src/transformers/library_transformer.py
 src/utils/__init__.py
 src/utils/utilities.py
+test/test_library.py
