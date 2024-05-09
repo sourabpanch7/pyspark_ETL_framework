@@ -16,7 +16,7 @@ class PySparkTestCase(unittest.TestCase):
 
 
 class TestLibraryTransformation(PySparkTestCase):
-    def test_single_space(self):
+    def test_transformation(self):
         sample_data = [
             {
                 "series": "Harry Potter",
