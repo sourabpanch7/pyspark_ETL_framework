@@ -1,4 +1,4 @@
-# PYSPARK FRAMEWORK  FOR ETL/ ML INFERNECE
+# PYSPARK FRAMEWORK  FOR ETL/ BATCH ML INFERNECE ON BIG DATA
 
 This is a sample PySpark based ETL framework which can be used for quick starting a Data/ML Engineering project.
 
@@ -11,6 +11,7 @@ executors using conda/venv/PEX. More information can be found below.
 https://spark.apache.org/docs/latest/api/python/user_guide/python_packaging.html
 3. Please ensure that the python version in the environment where the .egg file is created and where it's to be executed, 
 match.
+4. Model is trained and validated separately.
 
 
 ## Steps to Run the code
