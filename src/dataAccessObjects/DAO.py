@@ -1,3 +1,4 @@
+import pickle as pkl
 from src.dataAccessObjects.interface import GenericDAO
 
 
@@ -35,3 +36,15 @@ class ParquetDAO(GenericDAO):
 
     def write_data(self, **kwargs):
         kwargs["write_data"].coalsece(1).mode(kwargs["write_mode"]).parquet(kwargs["path"])
+
+
+class pklDAO(GenericDAO):
+    def __init__(self, spark):
+        self.spark = spark
+        super().__init__(spark=self.spark)
+
+    def read_data(self, **kwargs):
+        with open(kwargs["path"], 'rb') as ob:
+            obj = pkl.load(ob)
+
+        return obj

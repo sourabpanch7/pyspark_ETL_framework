@@ -1,0 +1,5 @@
+{ "app_name" : "spark_inference",
+  "ip_path": "resources/inputs/test_data.pkl",
+  "op_path" : "resources/outputs/inference/",
+  "model_path": "resources/models/mdl.sav"
+}
